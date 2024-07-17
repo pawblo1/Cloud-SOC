@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In this project, I built a mini honeynet in Azure and brought log information from various resources into a Log Analytics workspace, which is then used by Microsoft Sentinel to build attack maps, trigger alerts, and create incidents. I measured security metrics in the insecure environment for 24 hours, applied security controls to harden the environment, measured metrics for another 24 hours, and then gathered the data. The metrics I will show are:
+In this project, I created a mini honeynet on Azure and integrated log data from multiple sources into a Log Analytics workspace. This data was then utilized by Microsoft Sentinel to construct attack maps, generate alerts, and create incidents. I recorded security metrics in the unsecured environment over a 24-hour period, implemented security controls to fortify the environment, measured the metrics again for another 24 hours, and collected the data. The metrics I will present are:
 
 - SecurityEvent (Windows Event Logs)
 - Syslog (Linux Event Logs)
@@ -73,6 +73,8 @@ Stop Time 2024-06-19 17:04:29
 
 ## Conclusion
 
-In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
+n this project, a mini honeynet was established on Microsoft Azure, with log sources integrated into a Log Analytics workspace. Microsoft Sentinel was used to generate alerts and create incidents based on the ingested logs. Security metrics were measured in the unsecured environment before and after the implementation of security controls.
 
-It is also worth noting that if the resources within the network were heavily utilized by regular users, it is likely that more security events and alerts may have been generated within the 24-hour period following the implementation of the security controls.# Cloud-SOC
+The results showed a significant reduction in security events and incidents following the application of security controls, highlighting their effectiveness.
+
+It is also important to note that if the network resources were heavily utilized by regular users, more security events and alerts might have been generated within the 24-hour period after the security controls were implemented.# Cloud-SOC
