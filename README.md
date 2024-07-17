@@ -48,7 +48,7 @@ Stop Time 2024-06-19 17:04:29
 | ------------------------ | -----
 | SecurityEvent            | 20111
 | Syslog                   | 3668
-| SecurityAlert            | 12
+| SecurityAlert            | 10
 | SecurityIncident         | 427
 | AzureNetworkAnalytics_CL | 843
 
