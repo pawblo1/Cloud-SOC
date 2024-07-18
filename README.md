@@ -52,7 +52,7 @@ Stop Time 2024-06-19 17:04:29
 | SecurityIncident         | 427
 | AzureNetworkAnalytics_CL | 843
 
-## Attack Maps Before Hardening / Security Controls
+## Attack Maps After Hardening / Security Controls
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
@@ -73,7 +73,7 @@ Stop Time 2024-06-19 17:04:29
 
 ## Conclusion
 
-n this project, a mini honeynet was established on Microsoft Azure, with log sources integrated into a Log Analytics workspace. Microsoft Sentinel was used to generate alerts and create incidents based on the ingested logs. Security metrics were measured in the unsecured environment before and after the implementation of security controls.
+In this project, a mini honeynet was established on Microsoft Azure, with log sources integrated into a Log Analytics workspace. Microsoft Sentinel was used to generate alerts and create incidents based on the ingested logs. Security metrics were measured in the unsecured environment before and after the implementation of security controls.
 
 The results showed a significant reduction in security events and incidents following the application of security controls, highlighting their effectiveness.
 
